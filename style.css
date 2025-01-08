@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    text-align: left;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    text-align: start;
+    padding:200px;
+    height: auto;
+    height: 80vh;
+     background-color: rgb(243, 238, 238);  
+    border-radius: 20px;
+} 
+.white{
+    background-color: white;
+    height: 55vh;
+    width: 250px;
+    padding: 20px;
+}
+.img img{
+height: 55vh;
+width: 250px;
+}
+.perfume p{
+    font-family:Montserrat,sans-serif;
+    color:hsl(212, 21%, 14%);
+    font-size:1em;
+}
+.second p{
+    font-family: Fraunces,sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.third p{
+    font-size: 14px;
+    font-family:Montserrat,sans-serif;
+    margin-top: 10px;
+    color: rgb(133, 109, 109);
+}
+.fourth{
+    display: flex;
+    margin-top: 15px;
+}
+.fourth :first-child{
+    color: green;
+    margin-right: 40px;
+    font-size: 2em;
+    font-family: Fraunces,sans-serif;
+}
+.fourth :last-child{
+    font-size: 1em;
+}
+.last{
+    display: flex;
+    background-color: rgba(17, 73, 17, 0.87);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    color: rgb(248, 244, 244);
+    font-size: 20px;
+    border-radius: 10px;
+}
+.last :first-child{
+margin-right: 10px;
+}
+.mobile{
+    display: none;
+}
+@media (max-width:500px) {
+    html,body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100dvh;;
+        text-align: left;
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        text-align: start;
+        flex-direction: column;
+        padding:20px;
+        height: auto;
+        height: 95vh;
+        background-color: rgb(243, 238, 238);  
+        border-radius: 10px;
+    } 
+    .white{
+        background-color: white;
+        height: 60vh;
+        width: 300px;
+        padding: 20px;
+    }
+    .img img{
+    width: 300px;
+    height: 250px;
+    }
+    .perfume p{
+        font-family:Montserrat,sans-serif;
+        color:hsl(212, 21%, 14%);
+        font-size:1em;
+    }
+    .second p{
+        font-family: Fraunces,sans-serif;
+        font-size: 1.5em;
+        font-weight: 900;
+        margin-top: 10px;
+    }
+    .third p{
+        font-size: 14px;
+        font-family:Montserrat,sans-serif;
+        margin-top: 10px;
+        color: rgb(133, 109, 109);
+    }
+    .fourth{
+        display: flex;
+        margin-top: 10px;
+    }
+    .fourth :first-child{
+        color: green;
+        margin-right: 40px;
+        font-size: 2em;
+        font-family: Fraunces,sans-serif;
+    }
+    .fourth :last-child{
+        font-size: 1em;
+    }
+    .last{
+        display: flex;
+        background-color: rgba(17, 73, 17, 0.87);
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        margin-top: 10px;
+        color: rgb(248, 244, 244);
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    .last :first-child{
+    margin-right: 10px;
+    }
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+}
